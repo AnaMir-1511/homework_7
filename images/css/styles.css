@@ -1,0 +1,252 @@
+:root {
+    --primary-color: #2E2F42;
+    --secondary-color: #434455;
+    --accent-color: #404BBF;
+    --button-color: #4D5AE5;
+    --logo-color-dark: #2E2F42;
+    --logo-color-light:#F4F4FD;
+    --footer-text-color: #E7E9FC;
+    --white-color: #FFFFFF;
+
+
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+
+.body {
+    font-family: var(--primary-font);
+    letter-spacing: 0.02em;
+    font-weight: 400;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+
+/*===HEADER===*/
+
+/*===LOGO===*/
+
+.logo-link {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-color);
+}
+.logo-studio {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+/*===LOGO===*/
+
+
+
+/*===MENU NAVIGATION===*/
+
+.menu-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: var(--primary-color);
+    }
+
+.menu-link:hover,
+.menu-link:focus {
+        color: var(--accent-color);
+}    
+
+.current {
+    color: var(--accent-color);
+}
+
+.email-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.email-link:hover,
+.email-link:focus {
+    color: var(--accent-color);
+}
+
+.tel-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+/*===MENU NAVIGATION===*/
+
+
+/*===HERO SECTION===*/
+
+.hero-heading {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    text-align: center;
+        
+}
+
+.btn-main {
+    font-family: inherit;
+    background-color: var(--button-color);
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.btn-main:hover,
+.btn-main:focus {
+    background-color: var(--accent-color);
+}
+
+/*===HERO SECTION===*/
+
+
+/*===FEATURES SECTION, WHAT ARE WE DOING AND OUR TEAM===*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+}
+
+.features-heading, .services-heading, .team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    }
+
+.features-name, .team-name {
+    font-weight: 500;
+}
+
+.features-description, .team-description {
+        font-size: 16px;
+        line-height: 1,5;
+        color: var(--secondary-color);
+    }
+
+
+/*===PORTFOLIO NAVIGATION BUTTONS SECTION==*/
+
+.nav-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--button-color);
+    background: #F4F4FD;
+    border: none;   
+}
+
+.nav-btn:hover,
+.nav.btn:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/*===PORTFOLIO NAVIGATION BUTTONS and PORTFOLIO SECTION HEADINGS==*/
+
+.portfolio-nav-heading, .portfolio-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/*===PORTFOLIO PICTURES SECTION==*/
+.portfolio-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+
+}
+.portfolio-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    color: var(--secondary-color);
+}
+
+
+/*===FOOTER===*/
+.footer .logo-link {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-color);   
+}
+
+.footer .logo-studio {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color-light);
+}
+
+.logo-text {
+    font-size: 16px;
+    line-height: 1,5;
+    color: var(--footer-text-color)
+        ;
+}
+    
